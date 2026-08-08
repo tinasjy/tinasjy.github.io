@@ -1,29 +1,32 @@
-```css
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 nav {
-    background-color: #222;
-    padding: 20px;
-    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10%;
+    gap: 45px;
     position: sticky;
     top: 0;
+    background-color: white;
 }
 
 nav a {
-    color: white;
     text-decoration: none;
-    margin: 0 20px;
+    color: #374151;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #000000;
 }
 
 section {
-    padding: 100px 15%;
-    min-height: 500px;
+    min-height: 700px;
+    padding: 80px 10%;
 }
-```
