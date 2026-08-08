@@ -14,15 +14,20 @@ Website
 
 The website includes:
 
-About — A little about me
+About — A little about me 
+
 Experience — My work and other experiences
+
 Projects — Personal and academic projects
+
 Education — My academic background
-Built With
+
+Built With:
 HTML
 CSS
 GitHub Pages
-Contact
+
+Contact:
 GitHub
 LinkedIn
 Email
