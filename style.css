@@ -5,6 +5,7 @@ body {
     background-color: #f8f8f8;
     color: #222;
     line-height: 1.6;
+    position: relative;
 }
 
 
@@ -21,29 +22,38 @@ body::before {
     width: 100%;
     height: 750px;
 
-    z-index: -1;
+    z-index: 0;
+    pointer-events: none;
 
     background-image:
-        linear-gradient(135deg, transparent 45%, rgba(0, 0, 0, 0.07) 46%, rgba(0, 0, 0, 0.07) 47%, transparent 48%),
-        linear-gradient(45deg, transparent 45%, rgba(0, 0, 0, 0.07) 46%, rgba(0, 0, 0, 0.07) 47%, transparent 48%);
+        linear-gradient(
+            45deg,
+            transparent 48%,
+            rgba(0, 0, 0, 0.08) 49%,
+            transparent 50%
+        ),
+        linear-gradient(
+            -45deg,
+            transparent 48%,
+            rgba(0, 0, 0, 0.08) 49%,
+            transparent 50%
+        );
 
-    background-size: 90px 90px;
+    background-size: 80px 80px;
 
     mask-image: linear-gradient(
         to bottom,
         black 0%,
-        black 20%,
-        rgba(0, 0, 0, 0.7) 45%,
-        rgba(0, 0, 0, 0.25) 70%,
+        black 30%,
+        rgba(0, 0, 0, 0.5) 55%,
         transparent 100%
     );
 
     -webkit-mask-image: linear-gradient(
         to bottom,
         black 0%,
-        black 20%,
-        rgba(0, 0, 0, 0.7) 45%,
-        rgba(0, 0, 0, 0.25) 70%,
+        black 30%,
+        rgba(0, 0, 0, 0.5) 55%,
         transparent 100%
     );
 }
@@ -75,6 +85,7 @@ nav a {
     color: #666;
     font-size: 16px;
     font-weight: 600;
+
     transition: all 0.2s ease;
 }
 
@@ -90,18 +101,24 @@ nav a:hover {
 ========================= */
 
 .hero {
+    position: relative;
+    z-index: 1;
+
     margin-bottom: 80px;
 }
 
 h1 {
     font-size: 64px;
     font-weight: 600;
+
     margin: 0 0 12px 0;
 }
 
 .hero p {
     max-width: 700px;
+
     font-size: 20px;
+
     margin: 0 0 24px 0;
 }
 
@@ -113,14 +130,19 @@ h1 {
 .social-links {
     display: flex;
     align-items: center;
+
     gap: 18px;
+
     margin-bottom: 20px;
 }
 
 .social-links a {
     color: #666;
+
     font-size: 20px;
+
     text-decoration: none;
+
     transition: all 0.2s ease;
 }
 
@@ -131,7 +153,7 @@ h1 {
 
 
 /* =========================
-   RESUME
+   RESUME BUTTON
 ========================= */
 
 .resume-button {
@@ -143,6 +165,7 @@ h1 {
     border-radius: 999px;
 
     color: #555;
+
     text-decoration: none;
 
     font-size: 14px;
@@ -162,10 +185,17 @@ h1 {
 ========================= */
 
 section {
+    position: relative;
+    z-index: 1;
+
     background-color: white;
+
     border-radius: 20px;
+
     padding: 40px;
+
     margin-bottom: 40px;
+
     box-sizing: border-box;
 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -173,12 +203,14 @@ section {
 
 section h2 {
     font-size: 32px;
+
     margin-top: 0;
     margin-bottom: 20px;
 }
 
 section p {
     font-size: 18px;
+
     margin: 0;
 }
 
