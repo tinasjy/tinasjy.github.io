@@ -1,6 +1,11 @@
+
 /* =========================
-   GENERAL
+GENERAL
 ========================= */
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -18,7 +23,7 @@ body {
 
 
 /* =========================
-   FAINT GEOMETRIC BACKGROUND
+FAINT GEOMETRIC BACKGROUND
 ========================= */
 
 body::before {
@@ -71,7 +76,7 @@ body::before {
 
 
 /* =========================
-   NAVIGATION
+NAVIGATION
 ========================= */
 
 nav {
@@ -89,12 +94,14 @@ nav {
     margin-bottom: 80px;
 
     z-index: 100;
+
+    background-color: #000;
 }
 
 nav a {
     text-decoration: none;
 
-    color: #666;
+    color: #fff;
 
     font-size: 16px;
     font-weight: 600;
@@ -103,7 +110,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #000;
+    color: #fff;
 
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -111,7 +118,7 @@ nav a:hover {
 
 
 /* =========================
-   HERO
+HERO
 ========================= */
 
 .hero {
@@ -140,7 +147,7 @@ h1 {
 
 
 /* =========================
-   SOCIAL LINKS
+SOCIAL LINKS
 ========================= */
 
 .social-links {
@@ -171,7 +178,7 @@ h1 {
 
 
 /* =========================
-   RESUME BUTTON
+RESUME BUTTON
 ========================= */
 
 .resume-button {
@@ -202,7 +209,7 @@ h1 {
 
 
 /* =========================
-   SECTIONS
+SECTIONS
 ========================= */
 
 section {
@@ -231,15 +238,136 @@ section h2 {
     margin-bottom: 30px;
 }
 
+
+/* =========================
+CONTENT BOX
+========================= */
+
+.content-box {
+    background-color: #f1f1f1;
+
+    border-radius: 18px;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+}
+
 section p {
     font-size: 18px;
+
+    margin: 0 0 20px 0;
+}
+
+.content-box p:last-of-type {
+    margin-bottom: 0;
+}
+
+
+/* =========================
+EXPERIENCE
+========================= */
+
+.skills {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-top: 30px;
+}
+
+.skills span {
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    background-color: #e2e2e2;
+
+    color: #222;
+
+    border-radius: 999px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+
+/* =========================
+PROJECTS
+========================= */
+
+.project-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+.project-card {
+    display: block;
+
+    text-decoration: none;
+
+    color: #222;
+
+    background-color: #f1f1f1;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-image {
+    height: 170px;
+
+    background-color: #dedede;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 42px;
+
+    color: #555;
+}
+
+.project-info {
+    padding: 25px;
+}
+
+.project-info h3 {
+    font-size: 22px;
+
+    margin: 0 0 8px 0;
+}
+
+.project-info p {
+    color: #555;
+
+    font-size: 17px;
 
     margin: 0;
 }
 
 
 /* =========================
-   EDUCATION
+EDUCATION
 ========================= */
 
 .education-item {
@@ -280,7 +408,30 @@ section p {
 
 
 /* =========================
-   MOBILE
+FOOTER
+========================= */
+
+footer {
+    position: relative;
+
+    z-index: 1;
+
+    text-align: center;
+
+    color: #777;
+
+    padding: 20px 0 10px;
+}
+
+footer p {
+    font-size: 14px;
+
+    margin: 0;
+}
+
+
+/* =========================
+MOBILE
 ========================= */
 
 @media (max-width: 768px) {
@@ -310,4 +461,13 @@ section p {
     section {
         padding: 30px;
     }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content-box {
+        padding: 25px;
+    }
+
 }
