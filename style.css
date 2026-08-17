@@ -295,26 +295,21 @@ section p {
 
 .project-info {
     padding: 25px;
+    background-color: #f1f1f1;
 }
 
 .project-info h3 {
     font-size: 22px;
-
     margin: 0 0 8px 0;
 }
 
 .project-info p {
     color: #555;
-
     font-size: 17px;
-
     margin: 0;
 }
 
-
-/* =========================
-EDUCATION
-========================= */
+/*EDUCATION*/
 
 .education-item {
     margin-bottom: 30px;
