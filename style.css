@@ -476,3 +476,42 @@ MOBILE
     height: 100%;
     border: none;
 }
+
+/*IB SECTION*/
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.course-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 14px 18px;
+
+    background: #f5f5f5;
+    border-radius: 12px;
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: background 0.2s ease;
+}
+
+.course-card:hover {
+    background: #ebebeb;
+}
+
+.course-card strong {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.course-card span {
+    color: #666;
+    font-weight: 600;
+}
