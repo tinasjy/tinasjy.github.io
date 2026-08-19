@@ -2,14 +2,11 @@
 
 tina to do list:
 
-next time:
 1. rainwater image
-
-this time:
 3. link ia/ee/tok/cas and all my ib stuff
 4. write stuff for all projects.
 
-end:
+at the end:
 8. LINK NEW RESUME WHEN ITS DONE
 9. add color.
 
