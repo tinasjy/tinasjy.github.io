@@ -3,10 +3,11 @@
 tina to do list:
 1. figure out how to display images on homescreen properly.
 2. link ia/ee/tok/cas and all my ib stuff
-3. put in my reports and write some stuff for all projects.
+3. write stuff for all projects.
 4. finish notetaker section (replace homescreen photo and add reference letter and text)
-5. link new resume
 6. add COLOR!
+   
+8. LINK NEW RESUME WHEN ITS DONE
 
 
 Tina Song — Personal Portfolio
