@@ -1,13 +1,12 @@
 # tinasjy.github.io
 
-tina to do list:
+THIS IS A WORK IN PROGRESS
 
-4. write what I learnt for bike lane project.
-5. TAKE PROFESSIONAL HEADSHOT FOR THIS AND LINKEDIN.
-6. add personal image
-7. FINISH RESUME AND ADD PROEJCTS, TECHNICAL STUFF.
-8. LINK NEW RESUME WHEN ITS DONE
-9. add color.
+1. TAKE PROFESSIONAL HEADSHOT FOR THIS AND LINKEDIN.
+2. add personal image
+3. FINISH RESUMES
+4. LINK NEW RESUME
+5. add color to portfolio.
 
 Tina Song — Personal Portfolio
 
