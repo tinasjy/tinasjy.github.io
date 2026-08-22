@@ -2,10 +2,12 @@
 
 tina to do list:
 
-4. write what i learned and some more stuff for all projects.
-5. add personal image 
+4. write what I learnt for bike lane project.
+5. TAKE PROFESSIONAL HEADSHOT FOR THIS AND LINKEDIN.
+6. add personal image
+7. FINISH RESUME AND ADD PROEJCTS, TECHNICAL STUFF.
 8. LINK NEW RESUME WHEN ITS DONE
-9. add color. try sans-serif font.
+9. add color.
 
 Tina Song — Personal Portfolio
 
