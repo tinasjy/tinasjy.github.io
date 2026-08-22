@@ -2,12 +2,8 @@
 
 tina to do list:
 
-1. rainwater homepage image
-3. figure out what to do with chinese part of ib section
 4. write what i learned and some more stuff for all projects.
 5. add personal image 
-
-at the end:
 8. LINK NEW RESUME WHEN ITS DONE
 9. add color. try sans-serif font.
 
