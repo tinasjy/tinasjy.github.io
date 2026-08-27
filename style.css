@@ -126,8 +126,8 @@ h1 {
 
 .hero-image {
     width: 300px;
-    height: auto;
-    object-fit: contain;
+    height: 450px;
+    object-fit: cover;
 }
 
 .hero-text {
