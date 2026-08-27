@@ -1,14 +1,11 @@
 # tinasjy.github.io
 
-1. add personal image
-2. FINISH and LINK NEW RESUME
-3. add color to portfolio.
-4. find a font that actually works cause what the heck is happening right now
-
 Tina Song — Personal Portfolio
 
-Welcome to my personal portfolio website!
+Welcome to my Personal Portfolio Website!
 
-I'm Tina Song, an Engineering Physics student at the University of British Columbia. This website is a place to showcase my education, experience, projects, and interests in engineering and software.
+I'm Tina Song, a second year Engineering Physics student at the University of British Columbia. This website is a place to showcase my education, experience, projects, and interests in engineering and software.
+
+I'm attending the University of British Columbia from September 2025 - April 2030, which includes 12 months as part of the Science Co-op Program.
 
 Thanks for visiting!
