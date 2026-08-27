@@ -2,14 +2,23 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --slate: #526777;
+    --slate-dark: #3f5261;
+    --slate-light: #e8eef2;
+    --blue-grey: #dce5ea;
+    --text: #222;
+    --background: #f6f8f9;
+}
+
 body {
     margin: 0;
     padding: 40px 10%;
 
-    font-family: "IBM Plex Sans", serif;
+    font-family: "Fira Sans", sans-serif;
 
-    background-color: #f8f8f8;
-    color: black;
+    background-color: var(--background);
+    color: var(--text);
 
     line-height: 1.6;
 
@@ -166,25 +175,22 @@ RESUME BUTTON
 
 .resume-button {
     display: inline-block;
-
     padding: 8px 18px;
 
-    border: 1px solid #555;
-
+    border: 1px solid var(--slate);
     border-radius: 999px;
 
-    color: #555;
-
+    color: var(--slate-dark);
     text-decoration: none;
 
     font-size: 14px;
-
     font-weight: 600;
+
     transition: all 0.2s ease;
 }
 
 .resume-button:hover {
-    background-color: #555;
+    background-color: var(--slate);
     color: white;
 }
 
@@ -207,6 +213,7 @@ section h2 {
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 30px;
+    color: var(--slate-dark);
 }
 
 /* CONTENT BOX */
@@ -238,17 +245,14 @@ section p {
 
 .skills span {
     display: inline-block;
-
     padding: 8px 18px;
 
-    background-color: #e2e2e2;
-
-    color: #222;
+    background-color: var(--slate-light);
+    color: var(--slate-dark);
 
     border-radius: 999px;
 
     font-size: 15px;
-
     font-weight: 600;
 }
 
@@ -326,7 +330,7 @@ section p {
 
 .project-info {
     padding: 25px;
-    background-color: #f1f1f1;
+    background-color: #edf2f5;
 }
 
 .project-info h3 {
@@ -335,7 +339,7 @@ section p {
 }
 
 .project-info p {
-    color: #555;
+    color: #333;
     font-size: 17px;
     margin: 0;
 }
@@ -357,7 +361,7 @@ section p {
 }
 
 .education-item p {
-    color: #555;
+    color: #222;
 
     font-size: 18px;
 
@@ -371,7 +375,7 @@ section p {
 }
 
 .education-item li {
-    color: #555;
+    color: #222;
 
     font-size: 18px;
 
@@ -503,6 +507,7 @@ MOBILE
     margin-top: 20px;
 }
 
+
 .course-card {
     display: flex;
     justify-content: space-between;
@@ -510,7 +515,7 @@ MOBILE
 
     padding: 14px 18px;
 
-    background: #f5f5f5;
+    background: var(--slate-light);
     border-radius: 12px;
 
     text-decoration: none;
@@ -520,7 +525,7 @@ MOBILE
 }
 
 .course-card:hover {
-    background: #ebebeb;
+    background: var(--blue-grey);
 }
 
 .course-card strong {
@@ -529,9 +534,10 @@ MOBILE
 }
 
 .course-card span {
-    color: #666;
+    color: #222;
     font-weight: 600;
 }
+
 
 /* Added this cause i couldn't get profile image to show up properly. */
 .hero {
