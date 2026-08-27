@@ -532,3 +532,23 @@ MOBILE
     color: #666;
     font-weight: 600;
 }
+
+/* Added this cause i couldn't get profile image to show up properly. */
+.hero {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.hero-text {
+    flex: 1 !important;
+}
+
+.hero-image {
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: cover !important;
+    flex-shrink: 0 !important;
+    display: block !important;
+}
